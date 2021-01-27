@@ -1,8 +1,7 @@
 # practice-DocumentationCPPPython
 Project to practice documentation for C++ and Python
 
-This project is based on the documentation available at:  
-https://medium.com/practical-coding/c-documentation-with-doxygen-cmake-sphinx-breathe-for-those-of-use-who-are-totally-lost-7d555386fe13
+This project is based on several documentation found available online. Please check Resources for a list.
 
 ## Getting Started
 
@@ -35,28 +34,8 @@ This project does not requires installation.
 ## Running the tests
 
 This project differs form the original documentation in how the folders are structured.  
-
-### Break down into end to end tests
-
-mk docs  
-cd docs  
-sphinx-quickstart  
-modify conf.py  
-  Uncomment/modify the following lines  
-  import os
-  import sys
-  sys.path.insert(0, os.path.abspath('../src'))
-
-To autogenerate the rst files, run the sphinx-apidoc command using the following syntax:  
-sphinx-apidoc -o <OUTPUT_PATH> <MODULE_PATH>  
-In our example, the output directory is source , and the module directory is src.  
-sphinx-apidoc -f -o source ..\src  
-
-modify index.rst  
-
-  add source/modules  
-
-modify the other rst files...  
+It also modifies the file "github\workflows\docs.yml".  
+NB: ssh.yml targets a project not found. The code is kept for reference.  
 
 ## Contributing
 
@@ -83,5 +62,10 @@ This project is licensed under (see the [LICENSE.md](LICENSE.md) file for detail
 
 ## Resources  
 
+https://medium.com/practical-coding/c-documentation-with-doxygen-cmake-sphinx-breathe-for-those-of-use-who-are-totally-lost-7d555386fe13  
+https://medium.com/practical-coding/c-documentation-with-doxygen-cmake-sphinx-breathe-for-those-of-use-who-are-totally-lost-part-2-21f4fb1abd9f  
+https://medium.com/practical-coding/c-documentation-with-doxygen-cmake-sphinx-breathe-for-those-of-use-who-are-totally-lost-part-3-d20549d3b01f  
+https://devblogs.microsoft.com/cppblog/clear-functional-c-documentation-with-sphinx-breathe-doxygen-cmake/  
 https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html  
 https://google.github.io/styleguide/pyguide.html  
+https://github.com/KhoronusFork/cpp_doxygen_sphinx  
