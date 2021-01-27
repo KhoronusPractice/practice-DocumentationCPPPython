@@ -2,7 +2,7 @@ name: Build and Deploy
 on: [push]
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - name: Requirements
         run: brew install doxygen
