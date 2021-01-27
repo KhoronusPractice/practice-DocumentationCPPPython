@@ -1,7 +1,7 @@
 # practice-DocumentationCPPPython
 Project to practice documentation for C++ and Python
 
-This project is based on several documentation found available online. Please check Resources for a list.
+This project is based on several documents available online. Please check Resources for a list.
 The result is available at:  
 https://umedalab.github.io/practice-DocumentationCPPPython/  
 
