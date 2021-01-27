@@ -22,6 +22,8 @@ Add to the environment path the location of the doxygen binary (i.e. C:/Program 
 pip install -U Sphinx  
 pip install sphinx-rtd-theme  
 pip install breathe
+In github, remember to set GitHub pages in Setting. The best solution is to wait until the new branch "gh-pages" is created and set the correct brench.  
+The link to the website will be provided.  
 
 ### Installing
 
