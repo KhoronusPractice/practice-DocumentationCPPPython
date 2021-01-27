@@ -2,7 +2,7 @@
 Project to practice documentation for C++ and Python
 
 This project is based on the documentation available at:  
-https://devblogs.microsoft.com/cppblog/clear-functional-c-documentation-with-sphinx-breathe-doxygen-cmake/
+https://medium.com/practical-coding/c-documentation-with-doxygen-cmake-sphinx-breathe-for-those-of-use-who-are-totally-lost-7d555386fe13
 
 ## Getting Started
 
