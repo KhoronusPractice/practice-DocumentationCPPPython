@@ -2,6 +2,8 @@
 Project to practice documentation for C++ and Python
 
 This project is based on several documentation found available online. Please check Resources for a list.
+The result is available at:  
+https://umedalab.github.io/practice-DocumentationCPPPython/  
 
 ## Getting Started
 
@@ -71,3 +73,7 @@ https://devblogs.microsoft.com/cppblog/clear-functional-c-documentation-with-sph
 https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html  
 https://google.github.io/styleguide/pyguide.html  
 https://github.com/KhoronusFork/cpp_doxygen_sphinx  
+
+### GitHub Actions
+
+https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions  
