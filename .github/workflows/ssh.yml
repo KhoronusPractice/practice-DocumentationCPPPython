@@ -1,0 +1,12 @@
+name: CI
+on: # [push]
+  push:
+    branches-ignore:
+      - '**'  
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v3
